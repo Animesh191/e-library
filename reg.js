@@ -1,9 +1,9 @@
-var username = document.getElementById("aa");
-var email = document.getElementById("bb");
-var password = document.getElementById("cc");
-var cpassword = document.getElementById("dd");
+var username = document.getElementById("username");
+var email = document.getElementById("email");
+var password = document.getElementById("password");
+var cpassword = document.getElementById("cpassword");
 
-var submit = document.getElementById("e");
+var submit = document.getElementById("button");
 submit.addEventListener("click", (e) => {
   e.preventDefault();
   var pass = 0;
@@ -19,5 +19,5 @@ submit.addEventListener("click", (e) => {
     pass = 1;
     window.alert("Please Enter same password in both fields");
   }
-  if (pass === 0) window.location.href = "main.html";
-});//
+  if (pass === 0) setTimeout(window.location.href = "main.html",3000);
+});
