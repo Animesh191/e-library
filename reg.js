@@ -1,5 +1,5 @@
-var username = document.getElementById("username");
-var email = document.getElementById("email");
+var username = document.getElementById("aa");
+var email = document.getElementById("bb");
 var password = document.getElementById("cc");
 var cpassword = document.getElementById("dd");
 
