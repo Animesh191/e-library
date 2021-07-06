@@ -28,6 +28,6 @@ submit.addEventListener("click", (e) => {
     pass = 1;
     window.alert("Please Enter same password in both fields");
   }
-  if (pass === 0) setTimeout(window.location.href = "main.html",3000);
+  if (pass === 0) setTimeout(window.location.href = "login.html",3000);
   }
 });
