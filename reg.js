@@ -8,7 +8,11 @@ submit.addEventListener("click", (e) => {
   e.preventDefault();
   var pass = 0;
   var ip=email.value.search("@");
-  if(ip==-1){
+  if (username.length <= 0) {
+    window.alert("Please Enter Username");
+ 
+  }
+    else if(ip==-1){
     window.alert("enter a valid email");
   }
   else{
