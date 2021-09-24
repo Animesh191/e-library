@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" type="text/css" href="testing.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" href="styles/EVENT.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jquery.hislide.css">
+</head>
+<body>
+    <div class="landing">
+        <div class="con">
+            <h1>PACK YOUR BAGS AND GET READY FOR UPCOMING EVENTS</h1>
+            <a href="#up-event"><button>JUMP</button></a>
+        </div>
+    </div>
+    <div class="heading" id="up-event"><h1 class="hh">UPCOMING EVENTS</h1></div>
+    <div class="container">
+       <a href="event_dis.html" style="text-decoration: none;"><div class="box">
+            <div class="img">
+                <img src="student.jpeg" alt="" class="ii">
+            </div>
+            <div class="content">
+                <div class="date">
+                    <pre>28-09-2021  11:00 AM - 1:00 PM       <a href=""><i class="far fa-calendar"></i></a></pre>
+                    <h2>EVENT NAME</h2>
+                    <PRE>topic1  topic2  topic3  +more</PRE>
+                </div>
+            </div>
+        </div></a>
+        <a href="event_dis.html" style="text-decoration: none;"><div class="box">
+            <div class="img">
+                <img src="student.jpeg" alt="" style="background-color: rgb(255, 109, 109);" class="ii"> 
+            </div>
+            <div class="content">
+                <div class="date">
+                    <pre>11-JAN-2021  11:00 AM - 1:00 PM       <a href=""><i class="far fa-calendar"></i></a></pre>
+                    <h2>EVENT NAME</h2>
+                    <PRE>topic1  topic2  topic3  +more</PRE>
+                </div>
+            </div>
+        </div></a>
+       
+        
+    
+    </section>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+        const links = document.querySelectorAll('.nav li a');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle("open");
+        })
+    </script>
+    <!-- <button onclick="window.print()">print</button> -->
+</body>
+</html>
